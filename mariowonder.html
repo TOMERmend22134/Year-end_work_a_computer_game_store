@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/mobile.css">
+  <script src="./scripts/index.js" type="module"></script>
+  <title>Gaming Shop</title>
+</head>
+
+<body class="index">
+  <header >
+    <div class="container">
+      <nav>
+        <div>
+          <label for="nav">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+        <input type="checkbox" name="nav" id="nav">
+        <ul class="index font-fix">
+          <!-- <li></li> -->
+          <img id="x-icon" src="./images/VectorX.svg" width="25px" height="25px" alt="">
+          <li class="index"><a href="./index.html">Home</a></li>
+          <li class="index"><a href="./aboutus.html">About Us</a></li>
+          <li class="index"><a href="#">Contact</a></li>
+          <li class="index"><a href="./login.html">Login</a></li>
+          <li class="index"><a href="./signup.html">Register</a></li>
+        </ul>
+      </div>
+      </nav>
+      <div class="logo">
+        <a href="./index.html">
+            <img src="./images/logo.png" width="300px" alt="">
+        </a>
+      </div>
+  </div>
+  <div class="cart">
+    <!-- <span class="cart-icon"></span> -->
+    <img src="./images/VectorCart.svg" width="35px" height="35px" alt="">
+    <!-- <span class="cart-counter">0</span> -->
+  </div>
+  </header>
+
+  <section>
+    <video autoplay muted loop id="myVideo">
+        <source src="./videos/Super Mario Bros. Wonder.mp4" type="video/mp4">
+      </video>
+      <div class="arrow-container">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <span class="text">Scroll down</span>
+      </div>
+      <a href="./pokemon.html" class="btn fixed-btn">Add To Cart</a>
+    <!-- <img id="game-hero" src="./images/yakuza-hero.jpg" width="1519px" height="552px" alt=""> -->
+    <!-- <iframe width="1519px" height="552px" src="https://www.youtube.com/embed/GmQI4ZBAmp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    <div class="game game-page">
+      <!-- <p class="index">Explore a wide-open world at your own pace, battle and try to catch wild Pokémon, and encounter the Legendary Pokémon Koraidon in the Pokémon Scarlet game and Miraidon in the Pokémon Violet game. Which will you choose?</p> -->
+      <!-- <a href="#" class="btn">Add to cart</a> -->
+      <!-- <a href="javascript:void(0)" class="btn" data-game="game1" data-price="49.99">Add to cart</a> -->
+      <h1 class="h1-fix">Super Mario Bros. Wonder</h1>
+      <div class="limitbox">
+        <p class="p-fix">Embark on a thrilling journey into the future of Mario's world, where traditional side-scrolling gameplay receives a delightful twist through the enchanting Wonder Flowers. These magical blossoms usher in an unprecedented era of excitement and intrigue, promising an unforgettable adventure like never before.</p>
+        </div>
+        <div class="price-container">
+          <h3 class="price-index index">89.99$</h3>
+          <h3 class="price-index index discounted">69.99$</h3>
+        </div>
+        <div id="btn-fix">
+      <a href="./pokemon.html" class="btn btn-align">Add To Cart</a>
+    </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p class="index"> Gaming Shop by Tomer Mendelovich and Ido Simantov &copy; 2023 | All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

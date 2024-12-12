@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/mobile.css">
+  <script src="./scripts/index.js" type="module"></script>
+  <title>Login</title>
+</head>
+<body>
+  <header >
+    <div class="container">
+      <nav>
+        <div>
+          <label for="nav">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+        <input type="checkbox" name="nav" id="nav">
+        <ul class="index font-fix">
+          <!-- <li></li> -->
+          <img id="x-icon" src="./images/VectorX.svg" width="25px" height="25px" alt="">
+          <li class="index"><a href="./index.html">Home</a></li>
+          <li class="index"><a href="./aboutus.html">About Us</a></li>
+          <li class="index"><a href="#">Contact</a></li>
+          <li class="index"><a href="./login.html">Login</a></li>
+          <li class="index"><a href="./signup.html">Register</a></li>
+        </ul>
+      </div>
+      </nav>
+      <div class="logo">
+        <img src="./images/logo.png" width="300px" alt="">
+      </div>
+  </div>
+  <!-- <div class="cart">
+    <img src="./images/VectorCart.svg" width="35px" height="35px" alt="">
+  </div> -->
+  </header>
+  <div class="login-container">
+    <h2 id="login-header">Login</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label class="label" for="username">Username:</label>
+        <input type="text" id="username" name="username" maxlength="60" >
+        <span dir="rtl" class="field-description">יש למלא אותיות לועזיות בלבד, מספרים ותווים מיוחדים. יש לוודא שאורך הטקסט לא יעלה על 60 תווים.</span>
+      </div>
+      <br>
+      <div class="form-group">
+        <label class="label" for="password">Password:</label>
+        <input type="password" id="password" name="password" >
+        <span dir="rtl" class="field-description">מכילה בין 7 ל- 12 תווים. יש לוודא שיש לפחות תו אחד מיוחד, אות גדולה ומספר.</span>
+      </div>
+      <br>
+      <div class="form-group">
+        <button class="btn spacer" id="loginButton">
+          <a class="color-fix" href="profile.html">login</a></button>
+          <button class="btn spacer" id="signupButton">
+             <a class="color-fix" href="./signup.html">Sign Up</a>
+          </button> <!--להוסיף מעבר לדף הרשמה-->
+      </div>
+    </form>
+    <p id="errorMessage" class="error-message"></p>
+    </div>
+    <footer>
+      <div class="container">
+        <p class="index"> Gaming Shop by Tomer Mendelovich and Ido Simantov &copy; 2023 | All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+  </html>

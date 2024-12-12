@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px) {
+    #gallery {
+        /* height: 200px; */
+        width: auto;
+        background-size: contain;
+        display: none;
+    }
+    header {
+        width: auto;
+        padding: 0;
+    }
+    footer {
+        width: auto;
+    }
+    body {
+        width: 100%;
+    }
+    .game-container {
+        grid-template-columns: 1fr; /* Switch to a single column for mobile */
+        gap: 15px;
+      }
+    
+      .game {
+        width: auto;
+        padding: 15px;
+      }
+
+      .featured-games {
+        padding-top: 5em;
+      }
+
+      .hero {
+        height: 200px;
+      }
+
+      #nav:checked + ul {
+        width: 40%;
+      }
+      #x-icon {
+        right: 55px;
+      }
+
+      .arrow-container {
+        display: none;
+      }
+
+      .container {
+        padding: 0;
+      }
+
+      .name-fix {
+        font-size: 1em;
+      }
+
+      .align-fix {
+        gap: 25px;
+      }
+
+      #login-header {
+        margin: 10px;
+        margin-bottom: 50px;
+      }
+
+      label[for="nav"] {
+        right: 10px;
+      }
+}
